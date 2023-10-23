@@ -8,7 +8,7 @@ on:
 jobs:
   generate-docs:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -19,11 +19,10 @@ jobs:
         dotnet-version: 6.0.x
 
     - name: Setup DocFX
-      uses: crazy-max/ghaction-chocolatey@v1
-      with:
-        args: install docfx
+      run: dotnet tool install docfx
+      continue-on-error: false
 
-    - name: Restore .NET
+    - name: Restore .NET projects
       run: dotnet restore
       continue-on-error: false
       
