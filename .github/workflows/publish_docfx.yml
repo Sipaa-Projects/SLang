@@ -27,12 +27,12 @@ jobs:
       continue-on-error: false
       
     - name: DocFX Build
-      run: ~/.dotnet/tools/docfx .\docfx_project\docfx.json
+      run: ~/.dotnet/tools/docfx ./docfx_project/docfx.json
       continue-on-error: false
 
     - name: List files (Debug)
       working-directory: docfx_project
-      run: dir
+      run: ls
       
     - name: Publish
       if: github.event_name == 'push'
