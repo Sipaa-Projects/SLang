@@ -27,7 +27,7 @@ jobs:
       continue-on-error: false
       
     - name: DocFX Build
-      run: docfx .\docfx_project\docfx.json
+      run: ~/.dotnet/tools/docfx .\docfx_project\docfx.json
       continue-on-error: false
 
     - name: List files (Debug)
