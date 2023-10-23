@@ -24,7 +24,7 @@ jobs:
         args: install docfx
 
     - name: DocFX Build
-      working-directory: docfx-project
+      working-directory: docfx_project
       run: docfx .\docfx.json
       continue-on-error: false
 
