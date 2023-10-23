@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: SLangRT.VM
+  commentId: N:SLangRT.VM
+  id: VM
+  parent: SLangRT
+  children:
+  - SLangRT.VM.Components
+  - SLangRT.VM.SLVariable
+  langs:
+  - csharp
+  - vb
+  name: SLangRT.VM
+  nameWithType: SLangRT.VM
+  fullName: SLangRT.VM
+  type: Namespace
+  assemblies:
+  - SLangRT
+references:
+- uid: SLangRT.VM.Components
+  commentId: N:SLangRT.VM.Components
+  href: SLangRT.html
+  name: SLangRT.VM.Components
+  nameWithType: SLangRT.VM.Components
+  fullName: SLangRT.VM.Components
+  spec.csharp:
+  - uid: SLangRT
+    name: SLangRT
+    href: SLangRT.html
+  - name: .
+  - uid: SLangRT.VM
+    name: VM
+    href: SLangRT.VM.html
+  - name: .
+  - uid: SLangRT.VM.Components
+    name: Components
+    href: SLangRT.VM.Components.html
+  spec.vb:
+  - uid: SLangRT
+    name: SLangRT
+    href: SLangRT.html
+  - name: .
+  - uid: SLangRT.VM
+    name: VM
+    href: SLangRT.VM.html
+  - name: .
+  - uid: SLangRT.VM.Components
+    name: Components
+    href: SLangRT.VM.Components.html
+- uid: SLangRT.VM.SLVariable
+  commentId: T:SLangRT.VM.SLVariable
+  href: SLangRT.VM.SLVariable.html
+  name: SLVariable
+  nameWithType: SLVariable
+  fullName: SLangRT.VM.SLVariable

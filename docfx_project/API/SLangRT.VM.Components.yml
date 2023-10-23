@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: SLangRT.VM.Components
+  commentId: N:SLangRT.VM.Components
+  id: Components
+  parent: SLangRT.VM
+  children:
+  - SLangRT.VM.Components.SLComponent
+  - SLangRT.VM.Components.SLComponentExecuteData
+  - SLangRT.VM.Components.SLVariableManager
+  langs:
+  - csharp
+  - vb
+  name: SLangRT.VM.Components
+  nameWithType: SLangRT.VM.Components
+  fullName: SLangRT.VM.Components
+  type: Namespace
+  assemblies:
+  - SLangRT
+references:
+- uid: SLangRT.VM.Components.SLComponent
+  commentId: T:SLangRT.VM.Components.SLComponent
+  parent: SLangRT.VM.Components
+  href: SLangRT.VM.Components.SLComponent.html
+  name: SLComponent
+  nameWithType: SLComponent
+  fullName: SLangRT.VM.Components.SLComponent
+- uid: SLangRT.VM.Components.SLComponentExecuteData
+  commentId: T:SLangRT.VM.Components.SLComponentExecuteData
+  parent: SLangRT.VM.Components
+  href: SLangRT.VM.Components.SLComponentExecuteData.html
+  name: SLComponentExecuteData
+  nameWithType: SLComponentExecuteData
+  fullName: SLangRT.VM.Components.SLComponentExecuteData
+- uid: SLangRT.VM.Components.SLVariableManager
+  commentId: T:SLangRT.VM.Components.SLVariableManager
+  href: SLangRT.VM.Components.SLVariableManager.html
+  name: SLVariableManager
+  nameWithType: SLVariableManager
+  fullName: SLangRT.VM.Components.SLVariableManager
+- uid: SLangRT.VM.Components
+  commentId: N:SLangRT.VM.Components
+  href: SLangRT.html
+  name: SLangRT.VM.Components
+  nameWithType: SLangRT.VM.Components
+  fullName: SLangRT.VM.Components
+  spec.csharp:
+  - uid: SLangRT
+    name: SLangRT
+    href: SLangRT.html
+  - name: .
+  - uid: SLangRT.VM
+    name: VM
+    href: SLangRT.VM.html
+  - name: .
+  - uid: SLangRT.VM.Components
+    name: Components
+    href: SLangRT.VM.Components.html
+  spec.vb:
+  - uid: SLangRT
+    name: SLangRT
+    href: SLangRT.html
+  - name: .
+  - uid: SLangRT.VM
+    name: VM
+    href: SLangRT.VM.html
+  - name: .
+  - uid: SLangRT.VM.Components
+    name: Components
+    href: SLangRT.VM.Components.html

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SLangRT</name>
+    </assembly>
+    <members>
+        <member name="P:SLangRT.VM.Components.SLComponentExecuteData.HasBeenManaged">
+            <summary>
+            A boolean to check if the line has been managed by the component
+            </summary>
+        </member>
+        <member name="P:SLangRT.VM.Components.SLComponentExecuteData.ReturnValue">
+            <summary>
+            The returned value. Null if unmanaged, or if the line didn't returned anything
+            </summary>
+        </member>
+        <member name="T:SLangRT.VM.Components.SLComponent">
+            <summary>
+            Represents a component of SLang (ex: variable manager, function manager...)
+            </summary>
+        </member>
+        <member name="P:SLangRT.VM.Components.SLComponent.Parent">
+            <summary>
+            The paent <see cref="T:SLangRT.Runtime"/> instance
+            </summary>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLComponent.#ctor(SLangRT.Runtime)">
+            <summary>
+            The constructor
+            </summary>
+            <param name="Parent">The parent <see cref="T:SLangRT.Runtime"/></param>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLComponent.Execute(System.String)">
+            <summary>
+            Execute the component
+            </summary>
+            <param name="ln">The current line</param>
+            <returns>Some data like the return value...</returns>
+        </member>
+        <member name="T:SLangRT.VM.Components.SLVariableManager">
+            <summary>
+            Manage variables
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SLangRT.VM.Components.SLVariableManager.GetVarByName(System.String)" -->
+        <member name="M:SLangRT.VM.Components.SLVariableManager.SetVarWithName(System.String,System.Object)">
+            <summary>
+            Get a variable by his name
+            </summary>
+            <param name="name">The variable's name</param>
+            <returns>The variable. Returns NULL if not found</returns>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLVariableManager.IsVariableDefinition(System.String)">
+            <summary>
+            Check if a line is a variable definition
+            </summary>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLVariableManager.ShouldPrintInConsole(SLangRT.VM.SLVariable)">
+            <summary>
+            Check if a variable should be printed in console (private)
+            </summary>
+        </member>
+        <member name="T:SLangRT.VM.SLVariable">
+            <summary>
+            Represents a variable in SLang.
+            </summary>
+        </member>
+    </members>
+</doc>

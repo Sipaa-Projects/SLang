@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eT+y+WJtfJFCuPKkO5xymYfQcAjE2i3zHWgXGmprrRAxqLTnuH14CwmsTL1uRPuIpXWifbZXrD+imlgLz4+XAA==",
+  "success": true,
+  "projectFilePath": "/home/raphaelm/SLang/SLang/SLang.csproj",
+  "expectedPackageFiles": [
+    "/home/raphaelm/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.23/microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

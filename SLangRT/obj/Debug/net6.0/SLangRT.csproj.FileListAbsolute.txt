@@ -1,0 +1,14 @@
+/home/raphaelm/SLang/SLangRT/bin/Debug/net6.0/SLangRT.deps.json
+/home/raphaelm/SLang/SLangRT/bin/Debug/net6.0/SLangRT.dll
+/home/raphaelm/SLang/SLangRT/bin/Debug/net6.0/ref/SLangRT.dll
+/home/raphaelm/SLang/SLangRT/bin/Debug/net6.0/SLangRT.pdb
+/home/raphaelm/SLang/SLangRT/obj/Debug/net6.0/SLangRT.csproj.AssemblyReference.cache
+/home/raphaelm/SLang/SLangRT/obj/Debug/net6.0/SLangRT.GeneratedMSBuildEditorConfig.editorconfig
+/home/raphaelm/SLang/SLangRT/obj/Debug/net6.0/SLangRT.AssemblyInfoInputs.cache
+/home/raphaelm/SLang/SLangRT/obj/Debug/net6.0/SLangRT.AssemblyInfo.cs
+/home/raphaelm/SLang/SLangRT/obj/Debug/net6.0/SLangRT.csproj.CoreCompileInputs.cache
+/home/raphaelm/SLang/SLangRT/obj/Debug/net6.0/SLangRT.dll
+/home/raphaelm/SLang/SLangRT/obj/Debug/net6.0/ref/SLangRT.dll
+/home/raphaelm/SLang/SLangRT/obj/Debug/net6.0/SLangRT.pdb
+/home/raphaelm/SLang/SLangRT/bin/Debug/net6.0/SLangRT.xml
+/home/raphaelm/SLang/SLangRT/obj/Debug/net6.0/SLangRT.xml

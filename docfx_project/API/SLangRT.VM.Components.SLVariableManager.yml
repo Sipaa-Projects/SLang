@@ -1,0 +1,812 @@
+### YamlMime:ManagedReference
+items:
+- uid: SLangRT.VM.Components.SLVariableManager
+  commentId: T:SLangRT.VM.Components.SLVariableManager
+  id: SLVariableManager
+  parent: SLangRT.VM.Components
+  children:
+  - SLangRT.VM.Components.SLVariableManager.#ctor(SLangRT.Runtime)
+  - SLangRT.VM.Components.SLVariableManager.Execute(System.String)
+  - SLangRT.VM.Components.SLVariableManager.GetVarByName(System.String)
+  - SLangRT.VM.Components.SLVariableManager.IsVariableDefinition(System.String)
+  - SLangRT.VM.Components.SLVariableManager.SetVarWithName(System.String,System.Object)
+  - SLangRT.VM.Components.SLVariableManager.Variables
+  langs:
+  - csharp
+  - vb
+  name: SLVariableManager
+  nameWithType: SLVariableManager
+  fullName: SLangRT.VM.Components.SLVariableManager
+  type: Class
+  source:
+    remote:
+      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+    id: SLVariableManager
+    path: ../SLangRT/VM/Components/SLVariableManager.cs
+    startLine: 5
+  assemblies:
+  - SLangRT
+  namespace: SLangRT.VM.Components
+  summary: Manage variables
+  example: []
+  syntax:
+    content: 'public class SLVariableManager : SLComponent'
+    content.vb: Public Class SLVariableManager Inherits SLComponent
+  inheritance:
+  - System.Object
+  - SLangRT.VM.Components.SLComponent
+  inheritedMembers:
+  - SLangRT.VM.Components.SLComponent.Parent
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SLangRT.VM.Components.SLVariableManager.Variables
+  commentId: P:SLangRT.VM.Components.SLVariableManager.Variables
+  id: Variables
+  parent: SLangRT.VM.Components.SLVariableManager
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: SLVariableManager.Variables
+  fullName: SLangRT.VM.Components.SLVariableManager.Variables
+  type: Property
+  source:
+    remote:
+      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+    id: Variables
+    path: ../SLangRT/VM/Components/SLVariableManager.cs
+    startLine: 7
+  assemblies:
+  - SLangRT
+  namespace: SLangRT.VM.Components
+  syntax:
+    content: public List<SLVariable> Variables { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SLangRT.VM.SLVariable}
+    content.vb: Public Property Variables As List(Of SLVariable)
+  overload: SLangRT.VM.Components.SLVariableManager.Variables*
+- uid: SLangRT.VM.Components.SLVariableManager.#ctor(SLangRT.Runtime)
+  commentId: M:SLangRT.VM.Components.SLVariableManager.#ctor(SLangRT.Runtime)
+  id: '#ctor(SLangRT.Runtime)'
+  parent: SLangRT.VM.Components.SLVariableManager
+  langs:
+  - csharp
+  - vb
+  name: SLVariableManager(Runtime?)
+  nameWithType: SLVariableManager.SLVariableManager(Runtime?)
+  fullName: SLangRT.VM.Components.SLVariableManager.SLVariableManager(SLangRT.Runtime?)
+  type: Constructor
+  source:
+    remote:
+      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+    id: .ctor
+    path: ../SLangRT/VM/Components/SLVariableManager.cs
+    startLine: 9
+  assemblies:
+  - SLangRT
+  namespace: SLangRT.VM.Components
+  syntax:
+    content: public SLVariableManager(Runtime? Parent)
+    parameters:
+    - id: Parent
+      type: SLangRT.Runtime
+    content.vb: Public Sub New(Parent As Runtime)
+  overload: SLangRT.VM.Components.SLVariableManager.#ctor*
+  nameWithType.vb: SLVariableManager.New(Runtime)
+  fullName.vb: SLangRT.VM.Components.SLVariableManager.New(SLangRT.Runtime)
+  name.vb: New(Runtime)
+- uid: SLangRT.VM.Components.SLVariableManager.GetVarByName(System.String)
+  commentId: M:SLangRT.VM.Components.SLVariableManager.GetVarByName(System.String)
+  id: GetVarByName(System.String)
+  parent: SLangRT.VM.Components.SLVariableManager
+  langs:
+  - csharp
+  - vb
+  name: GetVarByName(string)
+  nameWithType: SLVariableManager.GetVarByName(string)
+  fullName: SLangRT.VM.Components.SLVariableManager.GetVarByName(string)
+  type: Method
+  source:
+    remote:
+      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+    id: GetVarByName
+    path: ../SLangRT/VM/Components/SLVariableManager.cs
+    startLine: 20
+  assemblies:
+  - SLangRT
+  namespace: SLangRT.VM.Components
+  syntax:
+    content: public KeyValuePair<int, SLVariable?> GetVarByName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Collections.Generic.KeyValuePair{System.Int32,SLangRT.VM.SLVariable}
+    content.vb: Public Function GetVarByName(name As String) As KeyValuePair(Of Integer, SLVariable)
+  overload: SLangRT.VM.Components.SLVariableManager.GetVarByName*
+  nameWithType.vb: SLVariableManager.GetVarByName(String)
+  fullName.vb: SLangRT.VM.Components.SLVariableManager.GetVarByName(String)
+  name.vb: GetVarByName(String)
+- uid: SLangRT.VM.Components.SLVariableManager.SetVarWithName(System.String,System.Object)
+  commentId: M:SLangRT.VM.Components.SLVariableManager.SetVarWithName(System.String,System.Object)
+  id: SetVarWithName(System.String,System.Object)
+  parent: SLangRT.VM.Components.SLVariableManager
+  langs:
+  - csharp
+  - vb
+  name: SetVarWithName(string, object)
+  nameWithType: SLVariableManager.SetVarWithName(string, object)
+  fullName: SLangRT.VM.Components.SLVariableManager.SetVarWithName(string, object)
+  type: Method
+  source:
+    remote:
+      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+    id: SetVarWithName
+    path: ../SLangRT/VM/Components/SLVariableManager.cs
+    startLine: 38
+  assemblies:
+  - SLangRT
+  namespace: SLangRT.VM.Components
+  summary: Get a variable by his name
+  example: []
+  syntax:
+    content: public void SetVarWithName(string name, object value)
+    parameters:
+    - id: name
+      type: System.String
+      description: The variable's name
+    - id: value
+      type: System.Object
+    content.vb: Public Sub SetVarWithName(name As String, value As Object)
+  overload: SLangRT.VM.Components.SLVariableManager.SetVarWithName*
+  nameWithType.vb: SLVariableManager.SetVarWithName(String, Object)
+  fullName.vb: SLangRT.VM.Components.SLVariableManager.SetVarWithName(String, Object)
+  name.vb: SetVarWithName(String, Object)
+- uid: SLangRT.VM.Components.SLVariableManager.IsVariableDefinition(System.String)
+  commentId: M:SLangRT.VM.Components.SLVariableManager.IsVariableDefinition(System.String)
+  id: IsVariableDefinition(System.String)
+  parent: SLangRT.VM.Components.SLVariableManager
+  langs:
+  - csharp
+  - vb
+  name: IsVariableDefinition(string)
+  nameWithType: SLVariableManager.IsVariableDefinition(string)
+  fullName: SLangRT.VM.Components.SLVariableManager.IsVariableDefinition(string)
+  type: Method
+  source:
+    remote:
+      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+    id: IsVariableDefinition
+    path: ../SLangRT/VM/Components/SLVariableManager.cs
+    startLine: 62
+  assemblies:
+  - SLangRT
+  namespace: SLangRT.VM.Components
+  summary: Check if a line is a variable definition
+  example: []
+  syntax:
+    content: public bool IsVariableDefinition(string ln)
+    parameters:
+    - id: ln
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsVariableDefinition(ln As String) As Boolean
+  overload: SLangRT.VM.Components.SLVariableManager.IsVariableDefinition*
+  nameWithType.vb: SLVariableManager.IsVariableDefinition(String)
+  fullName.vb: SLangRT.VM.Components.SLVariableManager.IsVariableDefinition(String)
+  name.vb: IsVariableDefinition(String)
+- uid: SLangRT.VM.Components.SLVariableManager.Execute(System.String)
+  commentId: M:SLangRT.VM.Components.SLVariableManager.Execute(System.String)
+  id: Execute(System.String)
+  parent: SLangRT.VM.Components.SLVariableManager
+  langs:
+  - csharp
+  - vb
+  name: Execute(string)
+  nameWithType: SLVariableManager.Execute(string)
+  fullName: SLangRT.VM.Components.SLVariableManager.Execute(string)
+  type: Method
+  source:
+    remote:
+      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+    id: Execute
+    path: ../SLangRT/VM/Components/SLVariableManager.cs
+    startLine: 70
+  assemblies:
+  - SLangRT
+  namespace: SLangRT.VM.Components
+  summary: Execute the component
+  example: []
+  syntax:
+    content: public override SLComponentExecuteData Execute(string ln)
+    parameters:
+    - id: ln
+      type: System.String
+      description: The current line
+    return:
+      type: SLangRT.VM.Components.SLComponentExecuteData
+      description: Some data like the return value...
+    content.vb: Public Overrides Function Execute(ln As String) As SLComponentExecuteData
+  overridden: SLangRT.VM.Components.SLComponent.Execute(System.String)
+  overload: SLangRT.VM.Components.SLVariableManager.Execute*
+  nameWithType.vb: SLVariableManager.Execute(String)
+  fullName.vb: SLangRT.VM.Components.SLVariableManager.Execute(String)
+  name.vb: Execute(String)
+references:
+- uid: SLangRT.VM.Components
+  commentId: N:SLangRT.VM.Components
+  href: SLangRT.html
+  name: SLangRT.VM.Components
+  nameWithType: SLangRT.VM.Components
+  fullName: SLangRT.VM.Components
+  spec.csharp:
+  - uid: SLangRT
+    name: SLangRT
+    href: SLangRT.html
+  - name: .
+  - uid: SLangRT.VM
+    name: VM
+    href: SLangRT.VM.html
+  - name: .
+  - uid: SLangRT.VM.Components
+    name: Components
+    href: SLangRT.VM.Components.html
+  spec.vb:
+  - uid: SLangRT
+    name: SLangRT
+    href: SLangRT.html
+  - name: .
+  - uid: SLangRT.VM
+    name: VM
+    href: SLangRT.VM.html
+  - name: .
+  - uid: SLangRT.VM.Components
+    name: Components
+    href: SLangRT.VM.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SLangRT.VM.Components.SLComponent
+  commentId: T:SLangRT.VM.Components.SLComponent
+  parent: SLangRT.VM.Components
+  href: SLangRT.VM.Components.SLComponent.html
+  name: SLComponent
+  nameWithType: SLComponent
+  fullName: SLangRT.VM.Components.SLComponent
+- uid: SLangRT.VM.Components.SLComponent.Parent
+  commentId: P:SLangRT.VM.Components.SLComponent.Parent
+  parent: SLangRT.VM.Components.SLComponent
+  href: SLangRT.VM.Components.SLComponent.html#SLangRT_VM_Components_SLComponent_Parent
+  name: Parent
+  nameWithType: SLComponent.Parent
+  fullName: SLangRT.VM.Components.SLComponent.Parent
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SLangRT.VM.Components.SLVariableManager.Variables*
+  commentId: Overload:SLangRT.VM.Components.SLVariableManager.Variables
+  href: SLangRT.VM.Components.SLVariableManager.html#SLangRT_VM_Components_SLVariableManager_Variables
+  name: Variables
+  nameWithType: SLVariableManager.Variables
+  fullName: SLangRT.VM.Components.SLVariableManager.Variables
+- uid: System.Collections.Generic.List{SLangRT.VM.SLVariable}
+  commentId: T:System.Collections.Generic.List{SLangRT.VM.SLVariable}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<SLVariable>
+  nameWithType: List<SLVariable>
+  fullName: System.Collections.Generic.List<SLangRT.VM.SLVariable>
+  nameWithType.vb: List(Of SLVariable)
+  fullName.vb: System.Collections.Generic.List(Of SLangRT.VM.SLVariable)
+  name.vb: List(Of SLVariable)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SLangRT.VM.SLVariable
+    name: SLVariable
+    href: SLangRT.VM.SLVariable.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SLangRT.VM.SLVariable
+    name: SLVariable
+    href: SLangRT.VM.SLVariable.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SLangRT.VM.Components.SLVariableManager.#ctor*
+  commentId: Overload:SLangRT.VM.Components.SLVariableManager.#ctor
+  href: SLangRT.VM.Components.SLVariableManager.html#SLangRT_VM_Components_SLVariableManager__ctor_SLangRT_Runtime_
+  name: SLVariableManager
+  nameWithType: SLVariableManager.SLVariableManager
+  fullName: SLangRT.VM.Components.SLVariableManager.SLVariableManager
+  nameWithType.vb: SLVariableManager.New
+  fullName.vb: SLangRT.VM.Components.SLVariableManager.New
+  name.vb: New
+- uid: SLangRT.Runtime
+  commentId: T:SLangRT.Runtime
+  parent: SLangRT
+  href: SLangRT.Runtime.html
+  name: Runtime
+  nameWithType: Runtime
+  fullName: SLangRT.Runtime
+- uid: SLangRT
+  commentId: N:SLangRT
+  href: SLangRT.html
+  name: SLangRT
+  nameWithType: SLangRT
+  fullName: SLangRT
+- uid: SLangRT.VM.Components.SLVariableManager.GetVarByName*
+  commentId: Overload:SLangRT.VM.Components.SLVariableManager.GetVarByName
+  href: SLangRT.VM.Components.SLVariableManager.html#SLangRT_VM_Components_SLVariableManager_GetVarByName_System_String_
+  name: GetVarByName
+  nameWithType: SLVariableManager.GetVarByName
+  fullName: SLangRT.VM.Components.SLVariableManager.GetVarByName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.KeyValuePair{System.Int32,SLangRT.VM.SLVariable}
+  commentId: T:System.Collections.Generic.KeyValuePair{System.Int32,SLangRT.VM.SLVariable}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.KeyValuePair`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<int, SLVariable>
+  nameWithType: KeyValuePair<int, SLVariable>
+  fullName: System.Collections.Generic.KeyValuePair<int, SLangRT.VM.SLVariable>
+  nameWithType.vb: KeyValuePair(Of Integer, SLVariable)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of Integer, SLangRT.VM.SLVariable)
+  name.vb: KeyValuePair(Of Integer, SLVariable)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SLangRT.VM.SLVariable
+    name: SLVariable
+    href: SLangRT.VM.SLVariable.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SLangRT.VM.SLVariable
+    name: SLVariable
+    href: SLangRT.VM.SLVariable.html
+  - name: )
+- uid: System.Collections.Generic.KeyValuePair`2
+  commentId: T:System.Collections.Generic.KeyValuePair`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: SLangRT.VM.Components.SLVariableManager.SetVarWithName*
+  commentId: Overload:SLangRT.VM.Components.SLVariableManager.SetVarWithName
+  href: SLangRT.VM.Components.SLVariableManager.html#SLangRT_VM_Components_SLVariableManager_SetVarWithName_System_String_System_Object_
+  name: SetVarWithName
+  nameWithType: SLVariableManager.SetVarWithName
+  fullName: SLangRT.VM.Components.SLVariableManager.SetVarWithName
+- uid: SLangRT.VM.Components.SLVariableManager.IsVariableDefinition*
+  commentId: Overload:SLangRT.VM.Components.SLVariableManager.IsVariableDefinition
+  href: SLangRT.VM.Components.SLVariableManager.html#SLangRT_VM_Components_SLVariableManager_IsVariableDefinition_System_String_
+  name: IsVariableDefinition
+  nameWithType: SLVariableManager.IsVariableDefinition
+  fullName: SLangRT.VM.Components.SLVariableManager.IsVariableDefinition
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SLangRT.VM.Components.SLComponent.Execute(System.String)
+  commentId: M:SLangRT.VM.Components.SLComponent.Execute(System.String)
+  parent: SLangRT.VM.Components.SLComponent
+  isExternal: true
+  href: SLangRT.VM.Components.SLComponent.html#SLangRT_VM_Components_SLComponent_Execute_System_String_
+  name: Execute(string)
+  nameWithType: SLComponent.Execute(string)
+  fullName: SLangRT.VM.Components.SLComponent.Execute(string)
+  nameWithType.vb: SLComponent.Execute(String)
+  fullName.vb: SLangRT.VM.Components.SLComponent.Execute(String)
+  name.vb: Execute(String)
+  spec.csharp:
+  - uid: SLangRT.VM.Components.SLComponent.Execute(System.String)
+    name: Execute
+    href: SLangRT.VM.Components.SLComponent.html#SLangRT_VM_Components_SLComponent_Execute_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SLangRT.VM.Components.SLComponent.Execute(System.String)
+    name: Execute
+    href: SLangRT.VM.Components.SLComponent.html#SLangRT_VM_Components_SLComponent_Execute_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SLangRT.VM.Components.SLVariableManager.Execute*
+  commentId: Overload:SLangRT.VM.Components.SLVariableManager.Execute
+  href: SLangRT.VM.Components.SLVariableManager.html#SLangRT_VM_Components_SLVariableManager_Execute_System_String_
+  name: Execute
+  nameWithType: SLVariableManager.Execute
+  fullName: SLangRT.VM.Components.SLVariableManager.Execute
+- uid: SLangRT.VM.Components.SLComponentExecuteData
+  commentId: T:SLangRT.VM.Components.SLComponentExecuteData
+  parent: SLangRT.VM.Components
+  href: SLangRT.VM.Components.SLComponentExecuteData.html
+  name: SLComponentExecuteData
+  nameWithType: SLComponentExecuteData
+  fullName: SLangRT.VM.Components.SLComponentExecuteData

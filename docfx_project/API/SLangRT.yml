@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: SLangRT
+  commentId: N:SLangRT
+  id: SLangRT
+  children:
+  - SLangRT.Runtime
+  - SLangRT.VM
+  langs:
+  - csharp
+  - vb
+  name: SLangRT
+  nameWithType: SLangRT
+  fullName: SLangRT
+  type: Namespace
+  assemblies:
+  - SLangRT
+references:
+- uid: SLangRT.VM
+  commentId: N:SLangRT.VM
+  href: SLangRT.html
+  name: SLangRT.VM
+  nameWithType: SLangRT.VM
+  fullName: SLangRT.VM
+  spec.csharp:
+  - uid: SLangRT
+    name: SLangRT
+    href: SLangRT.html
+  - name: .
+  - uid: SLangRT.VM
+    name: VM
+    href: SLangRT.VM.html
+  spec.vb:
+  - uid: SLangRT
+    name: SLangRT
+    href: SLangRT.html
+  - name: .
+  - uid: SLangRT.VM
+    name: VM
+    href: SLangRT.VM.html
+- uid: SLangRT.Runtime
+  commentId: T:SLangRT.Runtime
+  parent: SLangRT
+  href: SLangRT.Runtime.html
+  name: Runtime
+  nameWithType: Runtime
+  fullName: SLangRT.Runtime
+- uid: SLangRT
+  commentId: N:SLangRT
+  href: SLangRT.html
+  name: SLangRT
+  nameWithType: SLangRT
+  fullName: SLangRT

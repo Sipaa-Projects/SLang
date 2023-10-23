@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SLang/1.0.0": {
+        "dependencies": {
+          "SLangRT": "1.0.0"
+        },
+        "runtime": {
+          "SLang.dll": {}
+        }
+      },
+      "SLangRT/1.0.0": {
+        "runtime": {
+          "SLangRT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SLang/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SLangRT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
