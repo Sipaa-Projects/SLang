@@ -17,7 +17,9 @@ items:
   type: Class
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLComponent.cs
+      path: SLangRT/VM/Components/SLComponent.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: SLComponent
     path: ../SLangRT/VM/Components/SLComponent.cs
     startLine: 18
@@ -54,7 +56,9 @@ items:
   type: Property
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLComponent.cs
+      path: SLangRT/VM/Components/SLComponent.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: Parent
     path: ../SLangRT/VM/Components/SLComponent.cs
     startLine: 23
@@ -83,7 +87,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLComponent.cs
+      path: SLangRT/VM/Components/SLComponent.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: .ctor
     path: ../SLangRT/VM/Components/SLComponent.cs
     startLine: 29
@@ -116,7 +122,9 @@ items:
   type: Method
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLComponent.cs
+      path: SLangRT/VM/Components/SLComponent.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: Execute
     path: ../SLangRT/VM/Components/SLComponent.cs
     startLine: 39

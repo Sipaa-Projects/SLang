@@ -17,7 +17,9 @@ items:
   type: Class
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/SLVariable.cs
+      path: SLangRT/VM/SLVariable.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: SLVariable
     path: ../SLangRT/VM/SLVariable.cs
     startLine: 5
@@ -52,7 +54,9 @@ items:
   type: Property
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/SLVariable.cs
+      path: SLangRT/VM/SLVariable.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: Name
     path: ../SLangRT/VM/SLVariable.cs
     startLine: 7
@@ -79,7 +83,9 @@ items:
   type: Property
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/SLVariable.cs
+      path: SLangRT/VM/SLVariable.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: Value
     path: ../SLangRT/VM/SLVariable.cs
     startLine: 8
@@ -106,7 +112,9 @@ items:
   type: Property
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/SLVariable.cs
+      path: SLangRT/VM/SLVariable.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: Type
     path: ../SLangRT/VM/SLVariable.cs
     startLine: 9

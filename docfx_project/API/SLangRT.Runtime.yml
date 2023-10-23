@@ -18,7 +18,9 @@ items:
   type: Class
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/Runtime.cs
+      path: SLangRT/Runtime.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: Runtime
     path: ../SLangRT/Runtime.cs
     startLine: 6
@@ -51,7 +53,9 @@ items:
   type: Field
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/Runtime.cs
+      path: SLangRT/Runtime.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: Components
     path: ../SLangRT/Runtime.cs
     startLine: 8
@@ -76,7 +80,9 @@ items:
   type: Field
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/Runtime.cs
+      path: SLangRT/Runtime.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: IsForREPL
     path: ../SLangRT/Runtime.cs
     startLine: 9
@@ -101,7 +107,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/Runtime.cs
+      path: SLangRT/Runtime.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: .ctor
     path: ../SLangRT/Runtime.cs
     startLine: 11
@@ -128,7 +136,9 @@ items:
   type: Method
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/Runtime.cs
+      path: SLangRT/Runtime.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: ExecuteLine
     path: ../SLangRT/Runtime.cs
     startLine: 17

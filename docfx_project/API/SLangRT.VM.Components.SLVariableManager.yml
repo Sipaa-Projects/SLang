@@ -20,7 +20,9 @@ items:
   type: Class
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+      path: SLangRT/VM/Components/SLVariableManager.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: SLVariableManager
     path: ../SLangRT/VM/Components/SLVariableManager.cs
     startLine: 5
@@ -57,7 +59,9 @@ items:
   type: Property
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+      path: SLangRT/VM/Components/SLVariableManager.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: Variables
     path: ../SLangRT/VM/Components/SLVariableManager.cs
     startLine: 7
@@ -84,7 +88,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+      path: SLangRT/VM/Components/SLVariableManager.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: .ctor
     path: ../SLangRT/VM/Components/SLVariableManager.cs
     startLine: 9
@@ -114,7 +120,9 @@ items:
   type: Method
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+      path: SLangRT/VM/Components/SLVariableManager.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: GetVarByName
     path: ../SLangRT/VM/Components/SLVariableManager.cs
     startLine: 20
@@ -146,7 +154,9 @@ items:
   type: Method
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+      path: SLangRT/VM/Components/SLVariableManager.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: SetVarWithName
     path: ../SLangRT/VM/Components/SLVariableManager.cs
     startLine: 38
@@ -181,7 +191,9 @@ items:
   type: Method
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+      path: SLangRT/VM/Components/SLVariableManager.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: IsVariableDefinition
     path: ../SLangRT/VM/Components/SLVariableManager.cs
     startLine: 62
@@ -215,7 +227,9 @@ items:
   type: Method
   source:
     remote:
-      path: /home/raphaelm/SLang/SLangRT/VM/Components/SLVariableManager.cs
+      path: SLangRT/VM/Components/SLVariableManager.cs
+      branch: main
+      repo: https://github.com/RaphMar2021/SLang.git
     id: Execute
     path: ../SLangRT/VM/Components/SLVariableManager.cs
     startLine: 70
