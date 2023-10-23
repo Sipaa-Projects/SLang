@@ -28,6 +28,10 @@ jobs:
       run: docfx .\docfx.json
       continue-on-error: false
 
+    - name: List files (Debug)
+      working-directory: docfx_project
+      run: dir
+      
     - name: Publish
       if: github.event_name == 'push'
       uses: peaceiris/actions-gh-pages@v3
