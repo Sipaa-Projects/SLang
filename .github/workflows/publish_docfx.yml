@@ -1,4 +1,6 @@
-# Your GitHub workflow file under .github/workflows/
+name: publish_docfx
+
+on: push
 
 jobs:
   publish-docs:
