@@ -63,38 +63,21 @@ public class SLVariableManager : SLComponent
     public bool IsVariableDefinition(string ln) => ln.Contains('=');
 
     /// <summary>
-    /// Check if a variable should be printed in console (private)
+    /// Execute the component
     /// </summary>
-    private bool ShouldPrintInConsole(SLVariable? v) =>
-        v != null && Parent != null && Parent.IsForREPL;
-
+    /// <param name="ln">The current line</param>
+    /// <returns>Some data like the return value...</returns>
     public override SLComponentExecuteData Execute(string ln)
     {
         if (IsVariableDefinition(ln))
         {
             var split = ln.Split('=', StringSplitOptions.TrimEntries);
 
-            SetVarWithName(split[0], split[1]);
+            SetVarWithName(split[0], Parent.Parser.ParseValue(split[1]));
 
             return new() { HasBeenManaged = true };
         }
         else
-        {
-            var v = GetVarByName(ln);
-            if (ShouldPrintInConsole(v.Value))
-            {
-                if (v.Value != null) // Just to say to C# to don't show a warning
-                {
-                    Console.WriteLine(v.Value.Value);
-                    return new() { HasBeenManaged = true };
-                }
-                else
-                {
-                    return new();
-                }
-            }
-            else
-                return new();
-        }
+            return new();
     }
 }

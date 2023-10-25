@@ -4,6 +4,44 @@
         <name>SLangRT</name>
     </assembly>
     <members>
+        <member name="T:SLangRT.Runtime">
+            <summary>
+            The <see cref="T:SLangRT.Runtime"/> class, used to run SLang code
+            </summary>
+        </member>
+        <member name="P:SLangRT.Runtime.Components">
+            <summary>
+            The component list
+            </summary>
+        </member>
+        <member name="P:SLangRT.Runtime.Parser">
+            <summary>
+            The parser instance
+            </summary>
+        </member>
+        <member name="F:SLangRT.Runtime.IsForREPL">
+            <summary>
+            Boolean used to say to the runtime it belongs to a REPL.
+            </summary>
+        </member>
+        <member name="M:SLangRT.Runtime.#ctor">
+            <summary>
+            The constructor
+            </summary>
+        </member>
+        <member name="M:SLangRT.Runtime.GetComponentByType(System.Type)">
+            <summary>
+            Get a component by it's type
+            </summary>
+            <param name="t">The component's type</param>
+            <returns>The component if found, else NULL</returns>
+        </member>
+        <member name="M:SLangRT.Runtime.ExecuteLine(System.String)">
+            <summary>
+            Execute a line of code
+            </summary>
+            <param name="ln">The line to be executed</param>
+        </member>
         <member name="P:SLangRT.VM.Components.SLComponentExecuteData.HasBeenManaged">
             <summary>
             A boolean to check if the line has been managed by the component
@@ -37,6 +75,59 @@
             <param name="ln">The current line</param>
             <returns>Some data like the return value...</returns>
         </member>
+        <member name="T:SLangRT.VM.Components.SLFunctionManager">
+            <summary>
+            Manage the functions
+            </summary>
+        </member>
+        <member name="P:SLangRT.VM.Components.SLFunctionManager.Functions">
+            <summary>
+            The defined functions
+            </summary>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLFunctionManager.#ctor(SLangRT.Runtime)">
+            <summary>
+            The constructor
+            </summary>
+            <param name="Parent">The parent runtime</param>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLFunctionManager.IsFunctionCall(System.String)">
+            <summary>
+            Check if a line is a function call
+            </summary>
+            <param name="line">The line</param>
+            <returns>true if it's a function call, else false</returns>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLFunctionManager.Execute(System.String)">
+            <summary>
+            Execute the component
+            </summary>
+            <param name="ln">The current line</param>
+            <returns>Some data like the return value...</returns>
+        </member>
+        <member name="T:SLangRT.VM.Components.SLLoader">
+            <summary>
+            Load libraries and import .NET types into SLang.
+            </summary>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLLoader.#ctor(SLangRT.Runtime)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="Parent">The parent runtime</param>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLLoader.GetTypeInLoadedAssemblies(System.String)">
+            <summary>
+            Get a type from all the loaded assemblies
+            </summary>
+            <param name="typeName">The type name</param>
+            <returns>The type if found, else NULL</returns>
+        </member>
+        <member name="M:SLangRT.VM.Components.SLLoader.LoadLibrary(System.String)">
+            <summary>
+            Load a library with a DLL file
+            </summary>
+        </member>
         <member name="T:SLangRT.VM.Components.SLVariableManager">
             <summary>
             Manage variables
@@ -55,10 +146,12 @@
             Check if a line is a variable definition
             </summary>
         </member>
-        <member name="M:SLangRT.VM.Components.SLVariableManager.ShouldPrintInConsole(SLangRT.VM.SLVariable)">
+        <member name="M:SLangRT.VM.Components.SLVariableManager.Execute(System.String)">
             <summary>
-            Check if a variable should be printed in console (private)
+            Execute the component
             </summary>
+            <param name="ln">The current line</param>
+            <returns>Some data like the return value...</returns>
         </member>
         <member name="T:SLangRT.VM.SLVariable">
             <summary>

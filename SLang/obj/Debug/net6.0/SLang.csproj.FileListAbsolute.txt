@@ -16,6 +16,4 @@
 /home/raphaelm/SLang/SLang/obj/Debug/net6.0/ref/SLang.dll
 /home/raphaelm/SLang/SLang/obj/Debug/net6.0/SLang.pdb
 /home/raphaelm/SLang/SLang/obj/Debug/net6.0/SLang.genruntimeconfig.cache
-/home/raphaelm/SLang/SLang/bin/Debug/net6.0/SLang.xml
 /home/raphaelm/SLang/SLang/bin/Debug/net6.0/SLangRT.xml
-/home/raphaelm/SLang/SLang/obj/Debug/net6.0/SLang.xml
