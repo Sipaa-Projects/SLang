@@ -1,0 +1,190 @@
+{
+  "source_base_path": "/home/runner/work/SLang/SLang/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.Runtime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.VM.Components.SLComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.VM.Components.SLComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.VM.Components.SLComponentExecuteData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.VM.Components.SLComponentExecuteData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.VM.Components.SLFunctionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.VM.Components.SLFunctionManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.VM.Components.SLLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.VM.Components.SLLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.VM.Components.SLVariableManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.VM.Components.SLVariableManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.VM.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.VM.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.VM.SLVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.VM.SLVariable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.VM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.VM.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/SLangRT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/SLangRT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "API/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "API/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "API/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/toc.html"
+        },
+        ".json": {
+          "relative_path": "API/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
